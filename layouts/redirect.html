@@ -1,0 +1,11 @@
+<!-- https://maku77.github.io/p/oj3izfu/ -->
+<!DOCTYPE html>
+<html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
+  <head>
+    <title>{{ .Params.redirectTo }}</title>
+    <link rel="canonical" href="{{ .Params.redirectTo }}">
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ .Params.redirectTo }}">
+  </head>
+</html>
